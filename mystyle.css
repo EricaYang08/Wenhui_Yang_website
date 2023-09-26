@@ -1,0 +1,143 @@
+h1{
+    color: rgb(6, 6, 155);
+    text-align: center;
+    width:100;
+    height:10%;
+}
+
+h2 {
+    color:white;
+    padding-top: 1%;
+}
+
+h2:hover {
+    color:rgb(11, 178, 178);
+}
+
+h3{
+    color: white;
+}
+
+p{
+    font-size:20px;
+    color:black;
+}
+
+article {
+    margin-top:5px;
+    font-family: 'Times New Roman';
+    font-size:large
+}
+
+#look_forward {
+    color: white
+}
+
+#rectangle1 {
+    position: absolute;
+    content: '';
+    width: 80%;
+    height: 80%;
+    border: 2px solid #0d0e0d;
+    background: white
+    
+}
+
+#rectangle2 {
+    position:absolute;
+    content: '';
+    width: 30%;
+    height: 87%;
+    margin-top:-2%;
+    background: rgb(15, 15, 16);
+}
+#rectangle3 {
+    position: absolute;
+    content: '';
+    width: 233%;
+    height: 99%;
+    margin-left:100%;
+    border: 2px solid #0d0e0d;
+    background: rgb(255, 255, 255);
+}
+
+#phone {
+    padding-top: 10px
+}
+
+#name {
+    color:white;
+    text-align:left;
+    font-size:250%
+}
+
+#name:hover {
+    color:rgb(11, 178, 178);
+}
+
+
+#general_info {
+    font-family: "Monaco";
+    font-size: 200%;
+    margin-top:8%;
+    margin-left:3%;
+}
+
+#Interested_Area {
+    color:black;
+}
+
+#detailedEducation {
+    margin-top:2%;
+    display: none;
+    margin-left:0.7%;
+    margin-right:1%
+}
+
+#detailedExperience {
+    display: none;
+}
+
+#detailedSkills {
+    display: none;
+}
+
+#Purdue {
+    font-size:26px;
+}
+
+#Wisconsin {
+    font-size:26px
+}
+
+#Education {
+    font-size:23px;
+    line-height: 150%;
+}
+
+#coursework {
+    font-size:19px;
+    margin-top:-1%
+}
+
+
+#Wisconsin_image {
+    margin-left:5%;
+    width:175px;
+    height:170px;
+}
+
+#Purdue_image {
+    margin-left: 35%;
+    width: 185px;
+    height:180px;
+}
+
+.fade-in-image {
+    animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0;}
+    100% {opacity: 1;}
+}
